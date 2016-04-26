@@ -1,4 +1,8 @@
 First file
+<<<<<<< HEAD
 Adding a line
 Adding 3rd line
 
+=======
+Adding a line
+>>>>>>> master
