@@ -1,2 +1,6 @@
+{
 First file
+}
+{
 Adding a line This is testing
+}
