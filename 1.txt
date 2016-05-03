@@ -3,6 +3,7 @@ First file
 }
 {
 Adding a line This is testing
+adding a third line
 }
 {
 adding anew line
