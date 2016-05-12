@@ -1,10 +1,10 @@
-{
-First file
-}
-{
-Adding a line This is testing
-adding a third line
-}
-{
-adding anew line
-}
+Primary Goal
+
+Most of the web-based Git hosting services (such as GitHub or GitLab) or web-based collaborative code review tools that integrate with Git (such as Gerrit) allow a user to make changes to a remote Git repository through a web-based UI, i.e. through a browser. The user indicates the actions he wants to perform on the remote repository by using a browser, and the hosting Git server performs those actions on behalf of the user. The user’s trust in the Git server to perform those actions faithfully may be unwarranted, because a malicious Git server may choose to execute the requested actions in an incorrect manner, leading to a different state of the repository than what the user intended.
+
+The main goal of this paper is to provide a way to verify that the actions executed by the server on behalf of the user are performed correctly. We present three scenarios describing functionality that is provided through a web-based UI and that can be manipulated by a malicious Git server.
+
+Scenario 1: Merging a pull request in GitHub
+
+A GitHub project has an owner and contributors. The project owner can be a user or an organization that created the project. The contributors are developers who contribute code updates to the project. In general, the project owner is responsible for maintaining the master branch and contributors will work on development or their own branches to make the updates to the code. When the contributors complete the changes they are working on, they will request the project owner to merge the changes from their branch to the master branch. The project owner will review the contributor’s changes that came through the merge request and will merge them into the master branch. This merging process results in a merge commit and the master branch head will point to the new merge commit.
+
